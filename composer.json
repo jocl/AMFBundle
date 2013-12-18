@@ -1,12 +1,12 @@
 {
-    "name":         "tecbot/amf-bundle",
+    "name":         "jocl/amf-bundle",
     "description":  "Tecbot AMFBundle",
     "keywords":     ["amf"],
     "type":         "symfony-bundle",
     "authors": [
         {
-            "name":     "Thomas Adam",
-            "email":    "thomas.adam@tebot.de"
+            "name":     "Beer Patrick",
+            "email":    "p.beer@spedion.de"
         }
     ],
     "require": {
