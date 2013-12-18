@@ -12,15 +12,15 @@ use Tecbot\AMFBundle\Event\FilterServiceEvent;
 use Tecbot\AMFBundle\Event\GetBodyResponseEvent;
 use Tecbot\AMFBundle\Event\GetBodyResponseForExceptionEvent;
 use Tecbot\AMFBundle\HttpFoundation\Response;
-use Zend\Amf\Constants;
-use Zend\Amf\Parser\TypeLoader;
-use Zend\Amf\Request\StreamRequest;
-use Zend\Amf\Response\StreamResponse;
-use Zend\Amf\Value\MessageBody;
-use Zend\Amf\Value\Messaging\AcknowledgeMessage;
-use Zend\Amf\Value\Messaging\CommandMessage;
-use Zend\Amf\Value\Messaging\ErrorMessage;
-use Zend\Amf\Value\Messaging\RemotingMessage;
+use Tecbot\AMFBundle\Zend\Amf\Constants;
+use Tecbot\AMFBundle\Zend\Amf\Parser\TypeLoader;
+use Tecbot\AMFBundle\Zend\Amf\Request\StreamRequest;
+use Tecbot\AMFBundle\Zend\Amf\Response\StreamResponse;
+use Tecbot\AMFBundle\Zend\Amf\Value\MessageBody;
+use Tecbot\AMFBundle\Zend\Amf\Value\Messaging\AcknowledgeMessage;
+use Tecbot\AMFBundle\Zend\Amf\Value\Messaging\CommandMessage;
+use Tecbot\AMFBundle\Zend\Amf\Value\Messaging\ErrorMessage;
+use Tecbot\AMFBundle\Zend\Amf\Value\Messaging\RemotingMessage;
 
 class Server
 {

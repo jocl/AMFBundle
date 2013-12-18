@@ -3,7 +3,7 @@
 namespace Tecbot\AMFBundle\Event;
 
 use Symfony\Component\EventDispatcher\Event;
-use Zend\Amf\Value\MessageBody;
+use Tecbot\AMFBundle\Zend\Amf\Value\MessageBody;
 
 /**
  * Allows to create a body response for a body request exception

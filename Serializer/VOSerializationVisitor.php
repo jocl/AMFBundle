@@ -6,7 +6,7 @@ use JMS\SerializerBundle\Metadata\ClassMetadata;
 use JMS\SerializerBundle\Metadata\PropertyMetadata;
 use JMS\SerializerBundle\Serializer\GenericSerializationVisitor;
 
-use Zend\Amf\Value\Messaging\ArrayCollection;
+use Tecbot\AMFBundle\Zend\Amf\Value\Messaging\ArrayCollection;
 
 
 /**

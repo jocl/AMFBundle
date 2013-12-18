@@ -1,0 +1,9 @@
+<?php
+
+namespace Tecbot\AMFBundle\Zend\Validator\Exception;
+
+class RuntimeException
+    extends \RuntimeException
+    implements \Zend\Validator\Exception\ExceptionInterface
+{
+}

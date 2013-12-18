@@ -4,9 +4,9 @@ namespace Tecbot\AMFBundle;
 
 use Symfony\Bundle\FrameworkBundle\Client as BaseClient;
 use Tecbot\AMFBundle\Amf\Request;
-use Zend\Amf\Constants;
-use Zend\Amf\Request\StreamRequest;
-use Zend\Amf\Value\MessageBody;
+use Tecbot\AMFBundle\Zend\Amf\Constants;
+use Tecbot\AMFBundle\Zend\Amf\Request\StreamRequest;
+use Tecbot\AMFBundle\Zend\Amf\Value\MessageBody;
 
 class Client extends BaseClient
 {
